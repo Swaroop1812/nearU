@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RiderLoginPage from "./RiderLoginPage";
 import DriverLoginPage from "./DriverLoginPage";
+import "./LoginPage.css";
 
 function LoginPage() {
   const [userType, setUserType] = useState("rider");
